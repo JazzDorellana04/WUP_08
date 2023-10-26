@@ -42,8 +42,7 @@ plot(LENGTH~NECK,data=bears)
 abline(AGEmodel)
 summary.lm(AGEmodel)
 ```
-
-## Model LENGTH ~ HEADLEN this is an example  
+## Model LENGTH ~ HEADLEN  this is an example  
 
 ```{r}
 HEADLENmodel<- lm(LENGTH~HEADLEN,data=bears)
@@ -51,16 +50,6 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(HEADLENmodel)
 summary.lm(HEADLENmodel)
 ```
-```{r}
-HEADWTHmodel<- lm(LENGTH~HEADWTH,data=bears)
-plot(LENGTH~HEADWTH,data=bears)
-abline(HEADWTHmodel)
-summary.lm(HEADWTHmodel)
-```
 
-```{r}
-HEADWTHmodel<- lm(LENGTH~HEADWTH,data=bears)
-plot(LENGTH~HEADWTH,data=bears)
-abline(HEADWTHmodel)
-summary.lm(HEADWTHmodel)
-```
+
+
