@@ -38,7 +38,7 @@ summary.lm(simp)
 
 ```{r}
 AGEmodel<- lm(LENGTH~AGE,data=bears)
-plot(LENGTH~NECK,data=bears)
+plot(LENGTH~AGE,data=bears)
 abline(AGEmodel)
 summary.lm(AGEmodel)
 ```
@@ -58,6 +58,20 @@ plot(LENGTH~HEADWTH,data=bears)
 abline(HEADWTHmodel)
 summary.lm(HEADWTHmodel)
 ```
+## Model LENGTH ~ CHEST  this is an example  
 
+```{r}
+CHESTmodel<- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(CHESTmodel)
+summary.lm(CHESTmodel)
+```
+## Model LENGTH ~ WEIGHT  this is an example  
 
+```{r}
+WEIGHTmodel<- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(WEIGHTmodel)
+summary.lm(WEIGHTmodel)
+```
 
