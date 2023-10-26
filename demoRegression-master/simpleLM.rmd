@@ -75,3 +75,7 @@ abline(WEIGHTmodel)
 summary.lm(WEIGHTmodel)
 ```
 
+CONCLUSION 
+
+
+the largest adjusted R-squared is with length ~ headlength at 0.8434
